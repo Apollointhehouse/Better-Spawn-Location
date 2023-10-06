@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "apollointhehouse.betterspawnlocation.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "WorldTypeFlatMixin",
+    "WorldTypeOverworldMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

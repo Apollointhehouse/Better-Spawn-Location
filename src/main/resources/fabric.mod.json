@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "better_spawn_location",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This mod aims to help new BTA modders.",
+  "name": "Better Spawn Location",
+  "description": "Only two mixins.",
   "authors": [
-    "Turnip Labs"
+    "Apollointhehouse"
   ],
   "contact": {
     "homepage": "",
@@ -18,11 +18,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-        "turniplabs.examplemod.ExampleMod"
+        "apollointhehouse.betterspawnlocation.BetterSpawnLocation"
     ]
   },
   "mixins": [
-      "examplemod.mixins.json"
+      "betterspawnlocation.mixins.json"
   ],
 
   "depends": {
